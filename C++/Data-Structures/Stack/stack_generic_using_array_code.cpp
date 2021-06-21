@@ -11,7 +11,7 @@ public:
     Stack(int);
     ~Stack();
     void push(int);
-    int pop();
+    void pop();
     bool isEmpty();
     bool isFull();
     int Top();
@@ -48,14 +48,13 @@ template<class T> void Stack<T>::push(int data) {
     // increment top & insert data at top index
     arr[++top] = data;
 }
-template<class T> int Stack<T>::pop() {
+template<class T> void Stack<T>::pop() {
     // checking if stack is empty or not
     if(isEmpty()) {
         cout << "error : stack underflow\n";
-        return 0;
     }else {
-        // if stack is not empty, return top value & decrement top
-        return arr[top--];
+        // if stack is not empty, decrement top
+        top--;
     }
 }
 template<class T> bool Stack<T>::isEmpty() {
