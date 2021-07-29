@@ -14,6 +14,8 @@ A data structure is a particular way of organizing and storing data in a compute
 - [Queue](https://github.com/BinaryBeast007/Data-Structures-And-Algorithms/tree/main/C%2B%2B/Data-Structures/Queue)
 - [Linked List](https://github.com/BinaryBeast007/Data-Structures-And-Algorithms/tree/main/C%2B%2B/Data-Structures/Linked%20List)
 - [Binary Search Tree](https://github.com/BinaryBeast007/Data-Structures-And-Algorithms/tree/main/C%2B%2B/Data-Structures/Binary%20Search%20Tree)
+- [Heap](https://github.com/BinaryBeast007/Data-Structures-And-Algorithms/tree/main/C%2B%2B/Data-Structures/Heap "Heap")
+- [Graph](https://github.com/BinaryBeast007/Data-Structures-And-Algorithms/tree/main/C%2B%2B/Data-Structures/Graph "Graph")
 ## Algorithms
 An algorithm is a finite sequence of well-defined, computer-implementable instructions, typically to solve a class of specific problems or to perform a computation.
 -   [Bubble Sort](https://github.com/BinaryBeast007/Data-Structures-And-Algorithms/tree/main/C%2B%2B/Algorithms/Bubble%20Sort)
