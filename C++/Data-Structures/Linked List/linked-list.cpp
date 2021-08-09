@@ -20,6 +20,7 @@ public:
     int size();
     void erase(const int&);
     void erase_data(const int&);
+    bool search(const int&);
     void reverse();
     void print_list();
 };
@@ -158,6 +159,15 @@ void LinkedList::erase_data(const int& data) {
     temp->next = nodeToBeDelete->next;
     delete nodeToBeDelete;
 }
+bool LinkedList::search(const int& data) {
+    Node* current = head; // Initialize current
+    while (current != NULL) {
+        if (current->data == data)
+            return true;
+        current = current->next;
+    }
+    return false;
+}
 void LinkedList::reverse() {
     // Time complexity of reverse is O(N)
     Node* curr = head, *prev = NULL, *next;
@@ -196,6 +206,11 @@ int main() {
     ls.print_list();
     ls.erase_data(10);
     ls.reverse();
+    if(ls.search(37)) {
+        cout << "data found\n";
+    }else {
+        cout << "data not found\n";
+    }
     ls.print_list();
 
     return 0;
